@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 :root {
-    --primary-color: #659497;
+    --primary-color: #78d2d8;
     --dark-gray: #3512fa;
 
 }
@@ -56,28 +56,30 @@ hr {
 
 /** links **/
 .link {
-    box-sizing: border-box;
+    /* box-sizing: 2 rem; */
     text-decoration: none;
-    padding: 0rem 1rem;
+    /* padding: 0rem; */
+    display: inline;
 }
 
 .link-primary{
-    background-color: var(--primary-color);
-    border-radius: 0rem;
+    background-color:rgb(26, 25, 25);
+    /* border-radius: 0rem; */
     color: rgb(189, 184, 162);
-    display:block;
+    display:inline;
     max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
-
+    margin: 2rem 1rem 1rem 0rem;
+    display: inline;
 }
 
 .link-secondary {
-    color: var(--primary-color);
-    border-radius: 0rem;
-    border: 0px solid var(--primary-color);
-    display: block;
+    color:rgb(19, 17, 17);
+    /* border-radius: 0rem; */
+    border:orem;
+    display: inline;
     max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
+    margin: 2rem 1rem 1rem 0rem;
+    display:inline;
 }
 
 /** look into BEM naming convention for CSS **/
