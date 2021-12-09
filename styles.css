@@ -63,9 +63,9 @@ hr {
 }
 
 .link-primary{
-    background-color:rgb(26, 25, 25);
+    background-color:rgb(25, 161, 214);
     /* border-radius: 0rem; */
-    color: rgb(189, 184, 162);
+    color: rgb(15, 15, 12);
     display:inline;
     max-width: 140px;
     margin: 2rem 1rem 1rem 0rem;
@@ -108,6 +108,7 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
+    text-align: left;
 }
 
 .navigation .nav-pills {
@@ -194,4 +195,7 @@ hr {
 /** blogs **/
 .showcase-blog {
     padding-bottom: 6rem;
+}
+div{
+    text-align: center;
 }
