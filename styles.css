@@ -64,10 +64,11 @@ hr {
 
 .link-primary{
     background-color:rgb(25, 161, 214);
-    /* border-radius: 0rem; */
+    border-radius: 20px;;
     color: rgb(15, 15, 12);
     display:inline;
-    max-width: 140px;
+    max-width: 150px;
+    padding: 10px;
     margin: 2rem 1rem 1rem 0rem;
     display: inline;
 }
